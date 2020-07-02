@@ -6,7 +6,7 @@ module.exports = function (app) {
 
 
     controller.salvaPalestrante = function (req, res) {
-        aluno.create(req.body).then(
+        palestrante.create(req.body).then(
             function (palestrante) {
                 res.status(201).json(palestrante)
             }, function (erro) {
