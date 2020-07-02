@@ -10,7 +10,7 @@ module.exports = function () {
             required: true,
             validate: {
                 validator: function(v) {
-                    return v==(datahoraTermino > datahoraInicio);
+                    return datahoraTermino > datahoraInicio
                 },
                 message: props => `${props.value} deve ser maior ao horário de início!`
             }
