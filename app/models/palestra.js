@@ -10,7 +10,7 @@ module.exports = function () {
             required: true,
             validate: {
                 validator: function(v) {
-                    return datahoraTermino > datahoraInicio
+                    return this.datahoraTermino > this.datahoraInicio
                 },
                 message: props => `${props.value} deve ser maior ao horário de início!`
             }
@@ -30,4 +30,5 @@ module.exports = function () {
             required: false
         }
     });
+    return mongoose.model('Palestra', schema);
 }
