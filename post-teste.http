@@ -1,0 +1,29 @@
+POST http://localhost:3000/palestrantes
+Content-Type: application/json
+
+{
+    "nome": "Leonardo",
+    "email": "leo@teste.com",
+    "profissao": "Tecnologo em SI",
+    "instituicao": "Fatec Taquritinga"
+}
+
+<!--POST http://localhost:3000/palestras
+Content-Type: application/json
+
+{
+    "tema": "MongoDB",
+    "darahoraInicio": "2020-07-09 09:00",
+    "datahoraTermino": "2020-07-09 11:00",
+    "palestrante": "5efdfd4c91fce55344128f83"
+}-->
+
+<!--POST http://localhost:3000/inscritos
+Content-Type: application/json
+
+{
+    "nome": "Vinicius",
+    "email": "vinicius@teste.com",
+    "dataNascimento": "1998-08-17",
+    "palestras": "5f0340f5d32786306c009967"
+}-->

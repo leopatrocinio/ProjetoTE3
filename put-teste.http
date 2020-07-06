@@ -1,0 +1,31 @@
+PUT http://localhost:3000/palestrantes
+Content-Type: application/json
+
+{
+    "nome": "Keren",
+    "email": "keren@teste.com",
+    "profissao": "Tecnologa em SI",
+    "instituicao": "Fatec",
+    "_id": "5f034790f43a4258a816392b"
+}
+
+<!--PUT http://localhost:3000/palestras
+Content-Type: application/json
+
+{
+    "tema": "React",
+    "palestrante": "5efdfd4c91fce55344128f83",
+    "_id": "5f0340f5d32786306c009967"
+}-->
+
+
+<!--PUT http://localhost:3000/inscritos
+Content-Type: application/json
+
+{
+    "nome": "Keren",
+    "email": "keren@teste.com",
+    "dataNascimento": "1998-06-30",
+    "palestras": "5f0340f5d32786306c009967, 5f03441a94d6e25080f83ad2",
+    "_id": "5f034790f43a4258a816392b"
+}-->

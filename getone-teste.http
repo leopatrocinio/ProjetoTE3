@@ -1,0 +1,10 @@
+GET http://localhost:3000/palestrantes/5f034790f43a4258a816392b
+Content-Type: application/json
+
+
+<!--GET http://localhost:3000/palestras/5f034790f43a4258a816392b
+Content-Type: application/json-->
+
+
+<!--GET http://localhost:3000/inscritos/5f034790f43a4258a816392b
+Content-Type: application/json-->

@@ -2,7 +2,7 @@
 module.exports = function (app) {
     var controller = app.controllers.inscrito;
 
-    app.post('/incritos', controller.salvaInscrito);
+    app.post('/inscritos', controller.salvaInscrito);
     app.get('/inscritos', controller.listaInscritos);
     app.put('/inscritos', controller.alteraInscrito);
     app.delete('/inscritos/:id', controller.removeInscrito);
