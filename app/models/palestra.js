@@ -1,6 +1,10 @@
 var mongoose = require('mongoose');
 module.exports = function () {
     var schema = mongoose.Schema({
+        tema: {
+            type: String,
+            required: true
+        },
         datahoraInicio: {
             type: Date,
             required: true
