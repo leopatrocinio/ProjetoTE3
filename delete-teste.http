@@ -1,10 +1,10 @@
-DELETE http://localhost:3000/palestrantes/5f034a03f43a4258a816392c
+DELETE http://localhost:3000/palestrantes/5f06729c38d4d507400525b7
 Content-Type: application/json
 
 
-<!--DELETE http://localhost:3000/palestras/5f034a03f43a4258a816392c
-Content-Type: application/json-->
+# DELETE http://localhost:3000/palestras/5f034a03f43a4258a816392c
+# Content-Type: application/json
 
 
-<!--DELETE http://localhost:3000/inscritos/5f034a03f43a4258a816392c
-Content-Type: application/json-->
+# DELETE http://localhost:3000/inscritos/5f034a03f43a4258a816392c
+# Content-Type: application/json

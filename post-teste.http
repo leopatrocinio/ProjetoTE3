@@ -1,29 +1,30 @@
-POST http://localhost:3000/palestrantes
+# POST http://localhost:3000/palestras
+# Content-Type: application/json
+
+# {
+#     "tema": "Mozilla",
+#     "datahoraInicio": "2020-07-09 09:00",
+#     "datahoraTermino": "2020-07-09 11:00",
+#     "local": "Taquaritinga",
+#     "palestrante": "5f06729c38d4d507400525b7"
+# }
+
+# POST http://localhost:3000/palestrantes
+# Content-Type: application/json
+
+# {
+#     "nome": "Felipe",
+#     "email": "felipe@teste.com",
+#     "profissao": "Professor",
+#     "instituicao": "Fatec Taquritinga"
+# }
+
+POST http://localhost:3000/inscritos
 Content-Type: application/json
 
 {
-    "nome": "Leonardo",
-    "email": "leo@teste.com",
-    "profissao": "Tecnologo em SI",
-    "instituicao": "Fatec Taquritinga"
-}
-
-<!--POST http://localhost:3000/palestras
-Content-Type: application/json
-
-{
-    "tema": "MongoDB",
-    "darahoraInicio": "2020-07-09 09:00",
-    "datahoraTermino": "2020-07-09 11:00",
-    "palestrante": "5efdfd4c91fce55344128f83"
-}-->
-
-<!--POST http://localhost:3000/inscritos
-Content-Type: application/json
-
-{
-    "nome": "Vinicius",
-    "email": "vinicius@teste.com",
+    "nome": "Nicole",
+    "email": "nicole@teste.com",
     "dataNascimento": "1998-08-17",
-    "palestras": "5f0340f5d32786306c009967"
-}-->
+    "palestras":"5f02f7b87410612d44e86f1a" 
+}

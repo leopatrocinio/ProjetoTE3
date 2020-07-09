@@ -23,7 +23,8 @@ module.exports = function () {
             required: false
         },
         palestras: [{
-            type: String,
+            type: mongoose.Schema.ObjectId,
+            ref: 'Palestra',
             required: true
         }]
     });
