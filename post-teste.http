@@ -6,7 +6,7 @@
 #     "datahoraInicio": "2020-07-09 09:00",
 #     "datahoraTermino": "2020-07-09 11:00",
 #     "local": "Taquaritinga",
-#     "palestrante": "5f06729c38d4d507400525b7"
+#     "palestrante": "5f070272d7bfba2a1844d043"
 # }
 
 # POST http://localhost:3000/palestrantes
@@ -23,8 +23,8 @@ POST http://localhost:3000/inscritos
 Content-Type: application/json
 
 {
-    "nome": "Nicole",
-    "email": "nicole@teste.com",
+    "nome": "Leonado",
+    "email": "Leonardo@teste.com",
     "dataNascimento": "1998-08-17",
-    "palestras":"5f02f7b87410612d44e86f1a" 
+    "palestras":"5f0702a8d7bfba2a1844d044" 
 }

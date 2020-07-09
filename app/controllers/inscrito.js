@@ -16,7 +16,7 @@ module.exports = function (app) {
     };
 
     controller.listaInscritos = function (req, res) {
-        inscrito.find().populate('palestra').exec().then(
+        inscrito.find().populate('palestras').exec().then(
             function (inscrito) {
                 res.status(200).json(inscrito);
             }, function (erro) {

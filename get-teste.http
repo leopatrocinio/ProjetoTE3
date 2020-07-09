@@ -2,9 +2,9 @@
 # Content-Type: application/json
 
 
-GET http://localhost:3000/palestras
-Content-Type: application/json
-
-
-# GET http://localhost:3000/inscritos
+# GET http://localhost:3000/palestras
 # Content-Type: application/json
+
+
+GET http://localhost:3000/inscritos
+Content-Type: application/json
